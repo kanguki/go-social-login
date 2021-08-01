@@ -1,0 +1,7 @@
+//google
+//register google app and using goth
+https://www.loginradius.com/blog/async/google-authentication-with-golang-and-goth/
+
+//facebook
+https://developers.facebook.com/docs/facebook-login/web/login-button
+https://developers.facebook.com/docs/permissions/reference
