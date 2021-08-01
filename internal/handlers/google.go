@@ -83,12 +83,12 @@ func (g Google) HandleCallback(w http.ResponseWriter, r *http.Request) {
 }
 
 type GoogleUserData struct {
-	Id string
-	Email string
-	VerifiedEmail bool `json:"verified_email"`
-	DisplayName string `json:"name"`
-	GivenName string `json:"given_name"`
-	FamilyName string `json:"family_name"`
-	Avatar string `json:"picture"`
-	Locale string
+	Id            string
+	Email         string
+	VerifiedEmail bool   `json:"verified_email"`
+	DisplayName   string `json:"name"`
+	GivenName     string `json:"given_name"`
+	FamilyName    string `json:"family_name"`
+	Avatar        string `json:"picture"`
+	Locale        string
 }
